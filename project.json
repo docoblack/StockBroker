@@ -1,7 +1,7 @@
 {
   "name": "StockBroker",
   "description": "Blank Process",
-  "main": "Main.xaml",
+  "main": "Stock Price Trend Comparison.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.20.2]",
     "UiPath.Mail.Activities": "[1.20.0]",
@@ -13,13 +13,13 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "23.4.2.0",
-  "projectVersion": "1.0.0",
+  "projectVersion": "1.0.2",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
     "isPausable": true,
     "isAttended": false,
-    "requiresUserInteraction": true,
+    "requiresUserInteraction": false,
     "supportsPersistence": false,
     "workflowSerialization": "DataContract",
     "excludedLoggedData": [
@@ -58,6 +58,12 @@
     {
       "filePath": "Main.xaml",
       "uniqueId": "48bd0370-7ea1-4101-b6f5-fea8b67c9d9a",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Stock Price Trend Comparison.xaml",
+      "uniqueId": "d13b59a5-e494-4c9b-9a05-5bff1812573e",
       "input": [],
       "output": []
     }
